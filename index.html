@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. B. Raja, Ph.D. - Academic Portfolio</title>
+    <!-- CSS Theme Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="hero-container">
+        <nav class="navbar">
+            <div class="logo">Dr. B. Raja, <span>Ph.D.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Research</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="cv-btn">Download CV</a>
+        </nav>
+
+        <!-- Profile Hero Section -->
+        <div id="home" class="hero-content">
+            <div class="profile-pic">
+                <img src="dr-raja-10.png" alt="Dr. B. Raja">
+            </div>
+            <div class="hero-details">
+                <h1>Dr. B. Raja, Ph.D.</h1>
+                <h2>Associate Professor</h2>
+                <p class="dept">Department of Biochemistry & Biotechnology</p>
+                <p class="univ">Annamalai University</p>
+            </div>
+            <div class="heart-illustration">
+                <i class="fas fa-heart-pulse"></i>
+            </div>
+        </div>
+
+        <!-- 4 Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-box">
+                <span class="num">20+</span>
+                <span class="label">Years Research Experience</span>
+            </div>
+            <div class="stat-box">
+                <span class="num">77+</span>
+                <span class="label">Research Articles Published</span>
+            </div>
+            <div class="stat-box highlight">
+                <i class="fas fa-award"></i>
+                <div class="award-text">
+                    <span class="tag">Highlight Key Achievement</span>
+                    <strong>DST-SERB Fast Track Young Scientist Award</strong>
+                </div>
+            </div>
+            <div class="stat-box">
+                <span class="num">24+</span>
+                <span class="label">Years Teaching Experience</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-body">
+
+        <!-- About Me -->
+        <section id="about" class="about-card">
+            <h2>About Me</h2>
+            <p>
+                I am a <strong>biochemist</strong> and academic with over two decades of experience in teaching and research, specializing in cardiovascular biology and lipid metabolism. My research focuses on experimental hypertension, oxidative stress, and cardiac remodeling, with a strong emphasis on translational strategies for disease prevention and management. I am actively engaged in postgraduate teaching, interdisciplinary research, and the organization of academic programmes in life sciences.
+            </p>
+        </section>
+
+        <!-- 3 Feature Cards Grid -->
+        <section class="grid-cards">
+
+            <!-- Research Card -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-laptop-medical"></i></div>
+                <h3>Research</h3>
+                <p>Exploring cardiovascular biology, lipid metabolism, and translational research.</p>
+                <button class="action-btn" id="btn-research">Learn More</button>
+            </div>
+
+            <!-- Teaching Card -->
+            <div id="teaching" class="card">
+                <div class="card-icon"><i class="fas fa-microscope"></i></div>
+                <h3>Teaching</h3>
+                <p>Postgraduate education in biochemistry and biotechnology focusing on research-oriented pedagogy.</p>
+                <button class="action-btn" id="btn-teaching">Learn More</button>
+            </div>
+
+            <!-- Publications Card -->
+            <div id="publications" class="card pub-card">
+                <div class="card-icon"><i class="fas fa-book-journal-whills"></i></div>
+                <h3>Selected Publications</h3>
+                <ul class="pub-list">
+                    <li><strong>Raja B et al. (2022).</strong> Effects of caffeic acid nanoparticles in hypertension. <em>Int J Nutr Pharmacol Neurol Dis.</em></li>
+                    <li><strong>Nagarajan M et al. (2011).</strong> Bisphenol A and oxidative stress in hypertension. <em>Hum Exp Toxicol.</em></li>
+                    <li><strong>Raja B et al. (2019).</strong> Troxerutin in lipid metabolism. <em>Front Biosci.</em></li>
+                    <li><strong>Silambarasan T et al. (2016).</strong> Sinapic acid in cardiac protection. <em>Eur J Pharmacol.</em></li>
+                </ul>
+                <button class="action-btn pub-btn" id="btn-publications">View Publications</button>
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-card">
+            <h2>Contact</h2>
+            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> drrajaau@gmail.com</p>
+            <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 8940869994</p>
+        </section>
+
+    </main>
+
+    <!-- Modal Popup Window -->
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Title</h2>
+            <div id="modal-body">Content goes here...</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-col">
+            <h4>Google Scholar</h4>
+            <p><i class="fas fa-envelope"></i> drrajaau@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +91 8840889994</p>
+        </div>
+        <div class="footer-col">
+            <h4>Research</h4>
+            <p>Department of Biochemistry & Biotechnology</p>
+            <p>Annamalai University</p>
+            <p>Annamalainagar - 608 002</p>
+            <p>Tamil Nadu, India</p>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <div class="social-badges">
+                <span class="badge"><i class="fab fa-google"></i> Google</span>
+                <span class="badge green"><i class="fas fa-id-badge"></i> ORCID</span>
+                <span class="badge blue"><i class="fab fa-linkedin"></i></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
